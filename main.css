@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav a{
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+    transition: color 1000ms;
+}
+
+div{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    align-items: center;
+}
